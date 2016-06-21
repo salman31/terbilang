@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Terbilang dengan javascript</title>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
+	<script src="terbilang.min.js" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nilai').terbilang();
+		});
+	</script>
+	<style media="screen">
+		body {
+			background-color: #7310c1;
+			color: #fff;
+			margin: 50px;
+			font-family: 'Arial';
+		}
+	</style>
+</head>
+<body>
+	Masukkan bilangan :
+	<input type="number" id="nilai" autofocus>
+
+	<br/>
+	Jumlah terbilang :
+	<span id="hasil"><span/>
+</body>
+</html>
